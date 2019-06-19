@@ -1,0 +1,130 @@
+nav li{
+     display: inline;  
+     padding-top: 50px;
+     margin-left: 60px;
+     float: right;
+      }
+     
+ header{
+      	background-color: #D3D3D3;
+      	position: fixed;
+      	padding: 1px;
+      	font-weight: bold;
+      }
+.primary p{
+	font-family: comic sans ms;
+	font-size: 18px;
+	text-align: justify;
+	background-color: #F0FFF0;
+}
+.primary h1{
+	min-height: 30px;
+	text-align: center;
+}
+
+div ul{
+	border: 1px;
+	border-color: black; 
+}
+nav a{
+	text-decoration: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+div h1{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 3px 5px 10px maroon;
+	text-align: justify;
+
+}
+.para{
+     float: right;
+}
+
+
+img{
+	float: left;
+}
+
+
+.sec{
+	float: right;
+	width: 100px;
+    }
+
+.fa{
+	
+	background-color: #D3D3D3;
+    padding: 20px;
+    margin-left: 5%;
+    padding-left: 10%;
+}
+
+
+.hero-image{
+	background-image: url("../img/seen.jpg");
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	padding-left: 800px;
+  }
+
+.hero-text {
+  text-align: center;
+  color: rgba(0,0,0,0,0.5);
+  padding-left: 50px;
+  padding-top: 20px;
+  color: black;
+  text-shadow: 3px 5px 10px red;
+}
+.hero-text button{
+	font-size: 18px;
+}
+.footer{
+	background-color: #D3D3D3;
+	font-size: 40px;
+}
+
+#about {
+  top: 20px;
+  background-color: #4CAF50;
+}
+
+#blog {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#projects {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 200px;
+  background-color: #555
+}
+
+#mySidenav a:hover {
+  right: 0;
+}
+#mySidenav a {
+  position: absolute;
+  right: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 80px;
+}
+
+
